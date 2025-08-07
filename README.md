@@ -30,7 +30,7 @@ Before running this application, ensure you have:
 
 ```bash
 git clone <repository-url>
-cd java-firestore-crud
+cd java-fs-mdb
 ```
 
 ### 2. Google Cloud Setup
@@ -96,13 +96,13 @@ Or alternatively:
 
 ```bash
 mvn clean package
-java -jar target/java-firestore-crud-1.0.0.jar
+java -jar target/java-fs-mdb-1.0.0.jar
 ```
 
 ## 🏗️ Project Structure
 
 ```
-java-firestore-crud/
+java-fs-mdb/
 ├── src/
 │   └── main/
 │       ├── java/
